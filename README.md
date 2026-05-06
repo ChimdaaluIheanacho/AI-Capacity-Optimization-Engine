@@ -53,21 +53,23 @@ Clone the repository:
 git clone https://github.com/ChimdaaluIheanacho/AI-Capacity-Optimization-Engine.git
 cd AI-Capacity-Optimization-Engine
 pip install -r requirements.txt
+```
 
+**Run the Application**
 
-
-**Run the application:**
+```bash
 streamlit run app.py
+```
 
+**Example Output**
 
+The system generates:
 
-**Example of Output**
-The system displays:
-Recommended capacity values
-Stability predictions
-Buffer percentages
-Decision logs
-Simulation KPIs
+- Optimal capacity recommendations  
+- Stability predictions  
+- Buffer percentages  
+- Decision logs  
+- Simulation KPIs  
 
 **Components Used**
 Python
