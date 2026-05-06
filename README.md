@@ -1,6 +1,7 @@
 **My AI Capacity Optimization Engine**
 
 A hybrid decision system that combines Monte Carlo simulation and machine learning to determine optimal capacity under uncertainty during industrial process.
+Originally developed as an industrial process simulator, this project evolved into a hybrid AI-driven capacity optimization system.
 
 **Overview**
 
