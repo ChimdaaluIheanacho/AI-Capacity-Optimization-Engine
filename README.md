@@ -61,6 +61,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+The application will run locally and open in your browser at:
+http://localhost:8501
+
 **Results**
 
 The system was tested under multiple simulated production scenarios:
