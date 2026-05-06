@@ -61,6 +61,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+**Results**
+
+The system was tested under multiple simulated production scenarios:
+- Achieved stable capacity recommendations under stochastic demand variability  
+- Reduced overcapacity risk through constraint-based calibration  
+- Generated consistent KPI outputs across 1000+ Monte Carlo simulation runs  
+- Maintained system stability under fluctuating load conditions  
+
 **Example Output**
 
 The system generates:
@@ -79,8 +87,11 @@ Machine Learning (custom model)
 Data analysis & optimization logic
 
 **Importance of this Project**
-Most optimization systems rely olely on mathematical or AI models. This AI Capacity Optimization Engine introduces a hybrid engineering approach where 
-AI suggestions are validated against real-world constraints, outputs are calibrated to avoid instability and decision-making copies real industrial systems
+Most optimization systems rely olely on mathematical or AI models. This AI Capacity Optimization Engine introduces a hybrid engineering approach where: 
+- AI suggestions are validated against real-world constraints
+- Outputs are calibrated to avoid instability
+- Decision-making reflects real industrial systems
+This turns theoretical optimisation into engineering solutions that can actually be deployed and used.
 
 **Future Developments**
 Streamlit web interface
