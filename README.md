@@ -54,6 +54,8 @@ git clone https://github.com/ChimdaaluIheanacho/AI-Capacity-Optimization-Engine.
 cd AI-Capacity-Optimization-Engine
 pip install -r requirements.txt
 
+
+
 **Run the application:**
 streamlit run app.py
 
