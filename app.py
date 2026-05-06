@@ -14,7 +14,7 @@ from simulator import IndustrialProcessSimulator
 # Page + folders
 # -------------------------
 st.set_page_config(
-    page_title="Industrial Control Decision Suite",
+    page_title="AI Capacity Optimization Engine",
     layout="wide",
 )
 
@@ -511,8 +511,8 @@ def forecast_time_to_tolerance(last_df: pd.DataFrame, backlog_tolerance: int) ->
 # -------------------------
 # App title
 # -------------------------
-st.title("Industrial Control Decision Suite")
-st.write("A combined simulator, optimiser, decision engine, and AI control module for capacity planning under uncertainty.")
+st.title("AI Capacity Optimization Engine")
+st.write("A hybrid capacity planning system combining Monte Carlo simulation, optimisation, and AI calibration for conveyor-based industrial processes.")
 
 
 # -------------------------
