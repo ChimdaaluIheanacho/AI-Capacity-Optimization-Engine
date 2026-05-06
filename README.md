@@ -21,10 +21,20 @@ The aim is to produce stable, realistic, and dependable capacity recommendations
 - Calibration logic to balance AI predictions with real-world limits
 - Automated reporting and KPI generation
 
+**Architecture**
+Simulation Layer (Monte Carlo)
+         ↓
+AI Prediction Layer
+         ↓
+Engineering Constraint Layer
+         ↓
+Calibration Layer
+         ↓
+Final Verified Capacity Output
+
 
 **Project Structure**
 industrial_process_simulator/
-│
 ├── app.py # Main application / interface
 ├── simulator.py # Core simulation and optimization logic
 ├── requirements.txt # Dependencies
@@ -42,13 +52,14 @@ Clone the repository:
 ```bash
 git clone https://github.com/ChimdaaluIheanacho/AI-Capacity-Optimization-Engine.git
 cd AI-Capacity-Optimization-Engine
-**Install dependencies:**
 pip install -r requirements.txt
 
-**Run the main application:**
+**Run the application:**
 streamlit run app.py
 
-**Example Output**
+
+
+**Example of Output**
 The system displays:
 Recommended capacity values
 Stability predictions
