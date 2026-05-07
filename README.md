@@ -84,11 +84,11 @@ The system generates:
 - Simulation KPIs  
 
 **Components Used**
-Python
-NumPy / Pandas
-Monte Carlo Simulation
-Machine Learning (custom model)
-Data analysis & optimization logic
+- Python
+- NumPy / Pandas
+- Monte Carlo Simulation
+- Machine Learning (custom model)
+- Data analysis & optimization logic
 
 **Importance of this Project**
 Most optimization systems rely olely on mathematical or AI models. This AI Capacity Optimization Engine introduces a hybrid engineering approach where: 
