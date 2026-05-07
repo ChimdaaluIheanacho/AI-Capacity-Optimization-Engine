@@ -77,7 +77,7 @@ streamlit run app.py
 ```
 
 The application will run locally and open in your browser at:
-http://localhost:8501
+[http://localhost:8501](https://ai-capacity-engine.streamlit.app)
 
 **Results**
 
