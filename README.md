@@ -25,25 +25,38 @@ The aim is to produce stable, realistic, and dependable capacity recommendations
 **Architecture**
 
 Simulation Layer (Monte Carlo)
+
          ↓
 AI Prediction Layer
+
          ↓
 Engineering Constraint Layer
+
          ↓
 Calibration Layer
+
          ↓
 Final Verified Capacity Output
 
 
 **Project Structure**
+
 industrial_process_simulator/
+
 ├── app.py # Main application / interface
+
 ├── simulator.py # Core simulation and optimization logic
+
 ├── requirements.txt # Dependencies
+
 ├── README.md # Project documentation
+
 ├── .gitignore # Ignored files
+
 │
+
 ├── data/ # (ignored in repo)
+
 ├── reports/ # (ignored in repo)
 
 
@@ -101,13 +114,16 @@ Most optimization systems rely olely on mathematical or AI models. This AI Capac
 This turns theoretical optimisation into engineering solutions that can actually be deployed and used.
 
 **Future Developments**
+
 Streamlit web interface
 Real-time simulation dashboard
 Release (cloud-based demo)
 Integration with real sensor data
 
 **Author**
+
 Chimdaalu Iheanacho
 
 **License**
+
 MIT License
