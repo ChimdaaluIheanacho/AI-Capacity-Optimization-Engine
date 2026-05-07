@@ -23,6 +23,7 @@ The aim is to produce stable, realistic, and dependable capacity recommendations
 - Automated reporting and KPI generation
 
 **Architecture**
+
 Simulation Layer (Monte Carlo)
          ↓
 AI Prediction Layer
@@ -84,6 +85,7 @@ The system generates:
 - Simulation KPIs  
 
 **Components Used**
+
 - Python
 - NumPy / Pandas
 - Monte Carlo Simulation
@@ -91,6 +93,7 @@ The system generates:
 - Data analysis & optimization logic
 
 **Importance of this Project**
+
 Most optimization systems rely olely on mathematical or AI models. This AI Capacity Optimization Engine introduces a hybrid engineering approach where: 
 - AI suggestions are validated against real-world constraints
 - Outputs are calibrated to avoid instability
