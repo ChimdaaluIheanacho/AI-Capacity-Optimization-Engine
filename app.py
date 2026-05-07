@@ -385,7 +385,7 @@ def auc_trapezoid(fpr: np.ndarray, tpr: np.ndarray) -> float:
     order = np.argsort(fpr)
     f = fpr[order]
     t = tpr[order]
-    return float(np.trapz(t, f))
+    return float(np.trapezoid(t, f))
 
 
 @st.cache_data(show_spinner=False)
