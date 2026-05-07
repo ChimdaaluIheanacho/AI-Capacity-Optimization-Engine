@@ -23,26 +23,40 @@ The aim is to produce stable, realistic, and dependable capacity recommendations
 - Automated reporting and KPI generation
 
 **Architecture**
+
 Simulation Layer (Monte Carlo)
+
          ↓
 AI Prediction Layer
+
          ↓
 Engineering Constraint Layer
+
          ↓
 Calibration Layer
+
          ↓
 Final Verified Capacity Output
 
 
 **Project Structure**
+
 industrial_process_simulator/
+
 ├── app.py # Main application / interface
+
 ├── simulator.py # Core simulation and optimization logic
+
 ├── requirements.txt # Dependencies
+
 ├── README.md # Project documentation
+
 ├── .gitignore # Ignored files
+
 │
+
 ├── data/ # (ignored in repo)
+
 ├── reports/ # (ignored in repo)
 
 
@@ -84,13 +98,15 @@ The system generates:
 - Simulation KPIs  
 
 **Components Used**
-Python
-NumPy / Pandas
-Monte Carlo Simulation
-Machine Learning (custom model)
-Data analysis & optimization logic
+
+- Python
+- NumPy / Pandas
+- Monte Carlo Simulation
+- Machine Learning (custom model)
+- Data analysis & optimization logic
 
 **Importance of this Project**
+
 Most optimization systems rely olely on mathematical or AI models. This AI Capacity Optimization Engine introduces a hybrid engineering approach where: 
 - AI suggestions are validated against real-world constraints
 - Outputs are calibrated to avoid instability
@@ -98,13 +114,16 @@ Most optimization systems rely olely on mathematical or AI models. This AI Capac
 This turns theoretical optimisation into engineering solutions that can actually be deployed and used.
 
 **Future Developments**
+
 Streamlit web interface
 Real-time simulation dashboard
 Release (cloud-based demo)
 Integration with real sensor data
 
 **Author**
+
 Chimdaalu Iheanacho
 
 **License**
+
 MIT License
