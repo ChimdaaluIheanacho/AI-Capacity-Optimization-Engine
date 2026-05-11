@@ -76,8 +76,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application will run locally and open in your browser at:
-[http://localhost:8501](https://ai-capacity-engine.streamlit.app)
+The application has now been deployed and will open on your browser at:
+(https://ai-capacity-engine.streamlit.app)
 
 **Results**
 
